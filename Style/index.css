@@ -1,0 +1,152 @@
+.container {
+  font-family: inter;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.menu-section {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  align-items: flex-start;
+}
+.menu-section li {
+  margin-left: 0px;
+  display: inline;
+  margin: 10px;
+}
+.menu-section a {
+  text-decoration: none;
+  color: hsl(228deg, 45%, 44%);
+}
+.menu-section a:hover {
+  color: orange;
+}
+
+.body-section-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.body-section-center .body-elt-center {
+  flex: 1;
+}
+.body-section-center .body-elt-center .articles-right {
+  padding: 15px;
+}
+.body-section-center .body-elt-center .articles-right h1 {
+  font-size: 30px;
+}
+.body-section-center .body-elt-center .articles-right h2 {
+  font-size: 23px;
+}
+.body-section-center .body-elt-center .articles-right p {
+  font-size: 18px;
+}
+.body-section-center .img-container img {
+  max-width: 900px;
+  max-height: 800px;
+}
+
+.body-elt-center {
+  display: flex;
+  flex-direction: row;
+}
+.body-elt-center .articles-right {
+  height: 600px;
+  background-color: aqua;
+  flex-basis: 40%;
+}
+
+.heading-title {
+  display: flex;
+  justify-content: space-between;
+}
+.heading-title .title-h1 {
+  max-width: 28%;
+  font-size: 24px;
+}
+.heading-title .read-more {
+  flex-basis: 39%;
+  padding: 15px 200px;
+}
+.heading-title .read-more .text-read-more {
+  max-width: 630px;
+}
+.heading-title .read-more .text-read-more p {
+  font-size: 22px;
+}
+.heading-title .read-more .button-read-more button {
+  -webkit-appearance: button;
+     -moz-appearance: button;
+          appearance: button;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset, rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all 0.2s, box-shadow 0.08s ease-in;
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 40%;
+}
+.heading-title .read-more .button-read-more button:disabled {
+  cursor: default;
+}
+.heading-title .read-more .button-read-more button:focus {
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset, rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0, rgba(50, 151, 211, 0.3) 0 0 0 4px;
+}
+
+.list-items {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+.list-items .items-1 {
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.list-items .items-1 img {
+  max-width: 100px;
+  max-height: 100px;
+}
+.list-items .items-1:nth-child(1) {
+  display: flex;
+  background-color: red;
+  justify-content: space-between;
+}
+.list-items .items-1:nth-child(1) .img-items {
+  flex: 1;
+}
+.list-items .items-1:nth-child(2) {
+  display: flex;
+  background-color: green;
+}
+.list-items .items-1:nth-child(2) .img-items {
+  flex: 1;
+}
+.list-items .items-1:nth-child(3) {
+  display: flex;
+  background-color: blue;
+}
+.list-items .items-1:nth-child(3) .img-items {
+  flex: 1;
+}/*# sourceMappingURL=index.css.map */
